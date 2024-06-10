@@ -1,0 +1,39 @@
+/* Stylesheet */
+
+/* Next time: use the same class name for Number 1 and Number 5 and use a class and ID combo for Number 4:
+
+    "However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code."  */
+
+
+/* Overlapping attributes  */
+.numbaone, .numbatree, .numbafive {
+    background-color: #ffc0cb;
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+.numbaone, .numbafive {
+    font-size: 15px;
+
+}
+
+/* Unique attributes  */
+
+.numbatree {
+  font-size: 24px;
+
+}
+
+#numbatwo {
+  color: #0000ff;
+  font-size: 36px;
+
+}
+
+#numbafour {
+  background-color: #10be3b;
+  font-size: 24px;
+  font-weight: bold;
+}
