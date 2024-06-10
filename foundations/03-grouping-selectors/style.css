@@ -1,0 +1,18 @@
+/* style.css  */
+
+.noir, 
+.jaune {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+
+.noir {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.jaune {
+    background-color: #ffff00;
+}
