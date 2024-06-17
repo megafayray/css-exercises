@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column; /*allows there to be a header and footer*/
 }
 
 img {
@@ -15,7 +17,9 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  background: #eee; 
+  padding: 8px;
+  margin: 10px;
 }
 
 input {
@@ -24,3 +28,70 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.content {
+  align-self: center; /*centers the stuff */
+}
+
+/* || LINK STUFF  */
+
+ul {
+  list-style-type: none; /*removes bullets */
+  font-size: 13px;
+}
+
+a:link {
+  text-decoration: none; /*remove underline */
+  color:darkslategrey
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*this aligned the input box!! */
+}
+
+
+/* || HEADER STUFF */
+
+.header {
+  display: flex;
+  margin-bottom: auto; /*magically centered the middle bit*/
+}
+
+.left-links{
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.right-links {
+  display: flex;
+  gap: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+}
+
+/* || FOOTER STUFF  */
+
+.footer {
+  display: flex;
+  margin-top: auto; /*send footer to the bottom*/
+  background-color: lightgray;
+}
+
+#foot .left-links {
+  display: flex;
+  gap: 10px; /*put space between Advertising and Business*/
+  padding-left: 10px;
+  margin-top: auto;
+}
+
+#foot .right-links {
+  display: flex;
+  gap: 10px; /*put space between Privacy and Terms*/
+  margin-left: auto; /*kicks the free space to the left margin*/
+  padding-right: 10px;
+}
+
+
